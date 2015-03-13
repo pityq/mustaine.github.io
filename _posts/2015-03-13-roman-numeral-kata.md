@@ -1,41 +1,19 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+title: Roman Numeral Kata
+excerpt: "J blocks, and more."
 modified: 2013-05-31
-tags: [intro, beginner, jekyll, tutorial]
-comments: true
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+tags: [TDD, kata]
+comments: false
 ---
 
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Overview</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-
 ## HTML Elements
-
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
 # Heading 1
 
 ## Heading 2
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
 
 ### Body text
 
