@@ -15,7 +15,7 @@ Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-dri
 2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
 3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
 
-I wanted to practice TDD and some Java8, so I tried to solve the problem using streams and lambda expressions.
+I wanted to practice TDD and some Java8, so I tried to follow the rules and solve the problem using streams and lambda expressions.
 
 To start with, I wrote the most simple test scenario.
 
@@ -95,7 +95,7 @@ To follow the steps for solving the kata, have a look at the [history commits](h
 
 Before seeing my solution, I would encourage you to try to solve it and share your solution. I would also recommend to watch this [video](https://youtu.be/iZjgj1S0FCY?list=PLGS1QE37I5lQX33-yrnNasV_dHRh2oSkx) from [Sandro Mancuso](@sandromancuso) where he solves this problem.
 
-My solution of the problem after refactoring is:
+Full source is located on a github repo [roman-numerals](https://github.com/mustaine/katas/tree/master/roman-numeral) 
 
 {% gist mustaine/0885ce42e46c0b1e129d %}
 
