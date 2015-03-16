@@ -4,7 +4,7 @@ title: Roman Numerals Kata
 excerpt: "J blocks, and more."
 modified: 2013-05-31
 tags: [TDD, kata]
-comments: false
+comments: true
 ---
 
 Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development) with the [Roman Numerals Kata](https://github.com/mustaine/katas/tree/master/roman-numerals).
