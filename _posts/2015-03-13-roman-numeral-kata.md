@@ -93,7 +93,7 @@ I am pretty sure, that if I would have tried to solve this problem without follo
 
 To follow the steps for solving the kata, have a look at the [history commits](https://github.com/mustaine/katas/commits/master/roman-numeral).
 
-Before seeing my solution, I would encourage you to try to solve it and share your solution. I would also recommend to watch this [video](https://youtu.be/iZjgj1S0FCY?list=PLGS1QE37I5lQX33-yrnNasV_dHRh2oSkx) from [Sandro Mancuso](@sandromancuso) where he solves this problem.
+Before seeing my solution, I would encourage you to try to solve it and share your solution. I would also recommend to watch this [video](https://youtu.be/iZjgj1S0FCY?list=PLGS1QE37I5lQX33-yrnNasV_dHRh2oSkx) from [Sandro Mancuso](https://twitter.com/sandromancuso) where he solves this problem.
 
 Full source is located on a github repo [roman-numerals](https://github.com/mustaine/katas/tree/master/roman-numeral) 
 
