@@ -7,9 +7,9 @@ tags: [TDD, kata]
 comments: true
 ---
 
-Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development) with the [Roman Numerals Kata](https://github.com/mustaine/katas/tree/master/roman-numerals).
+Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development){:target="_blank"} with the [Roman Numerals Kata](https://github.com/mustaine/katas/tree/master/roman-numerals){:target="_blank"}.
 
-[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) defines the [3 rules of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)
+[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin){:target="_blank"} defines the [3 rules of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd){:target="_blank"}
 
 1. You are not allowed to write any production code unless it is to make a failing unit test pass.
 2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
@@ -91,11 +91,11 @@ After adding these cases to the Enum, the implementation was working fine.
 
 I am pretty sure, that if I would have tried to solve this problem without following TDD, the result would have been different and probably not so clean.
 
-To follow the steps for solving the kata, have a look at the [history commits](https://github.com/mustaine/katas/commits/master/roman-numeral).
+To follow the steps for solving the kata, have a look at the [history commits](https://github.com/mustaine/katas/commits/master/roman-numeral){:target="_blank"}.
 
-Before seeing my solution, I would encourage you to try to solve it and share your solution. I would also recommend to watch this [video](https://youtu.be/iZjgj1S0FCY?list=PLGS1QE37I5lQX33-yrnNasV_dHRh2oSkx) from [Sandro Mancuso](https://twitter.com/sandromancuso) where he solves this problem.
+Before seeing my solution, I would encourage you to try to solve it and share your solution. I would also recommend to watch this [video](https://youtu.be/iZjgj1S0FCY?list=PLGS1QE37I5lQX33-yrnNasV_dHRh2oSkx){:target="_blank"} from [Sandro Mancuso](https://twitter.com/sandromancuso){:target="_blank"} where he solves this problem.
 
-Full source is located on a github repo [roman-numerals](https://github.com/mustaine/katas/tree/master/roman-numeral) 
+Full source is located on a github repo [roman-numerals](https://github.com/mustaine/katas/tree/master/roman-numeral){:target="_blank"}
 
 {% gist mustaine/0885ce42e46c0b1e129d %}
 
