@@ -7,7 +7,7 @@ tags: [TDD, kata]
 comments: true
 ---
 
-Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development){:target="_blank"} with the [Roman Numerals Kata](https://github.com/mustaine/katas/tree/master/roman-numerals){:target="_blank"}.
+Practicing [Test-Driven-Development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development){:target="_blank"} with the [Roman Numerals Kata](https://github.com/mustaine/katas/tree/master/roman-numeral){:target="_blank"}.
 
 [Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin){:target="_blank"} defines the [3 rules of TDD](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd){:target="_blank"}
 
