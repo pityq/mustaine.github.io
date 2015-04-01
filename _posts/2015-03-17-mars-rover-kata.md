@@ -2,7 +2,6 @@
 layout: post
 title: Mars Rover Kata
 excerpt: "Mars Rover Kata"
-modified: 2013-05-31
 tags: [TDD, DDD, kata]
 comments: true
 ---
