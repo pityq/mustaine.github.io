@@ -76,7 +76,7 @@ you need an interface with multiple implementations</cite>)
 
 ## Conclusion
 
-I think that interfaces are great when you are developing an API; they act like contracts between systems; or when you need multiple implementations, ...
+I think that interfaces are great when you are developing an API; they act like contracts between systems; or when you need multiple implementations.
 
 But I am sure that we <b>should not</b> use an interface for every component we create and, sadly, in the Spring eco-system interfaces are used <del>abused</del> much to often.
 
