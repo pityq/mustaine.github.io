@@ -35,13 +35,13 @@ should be used at development level at maximum. Otherwise people will take them 
 You could think that these behaviour are from companies implementing bad Scrum,
 but in my experience the non-technical roles try to converge story points with time, so with deadlines.
 
-Recently I discovered the [#noEstimates](https://twitter.com/hashtag/noestimates) discussion on twitter.
+Recently I discovered the [#noEstimates](https://twitter.com/hashtag/noestimates){:target="_blank"} discussion on twitter.
 
 Some interesting articles about it
 
-* ["My First, Last & Only Blog Post About #NoEstimates"](http://codemanship.co.uk/parlezuml/blog/?postid=1316) by [@jasongorman](https://twitter.com/jasongorman)
+* ["My First, Last & Only Blog Post About #NoEstimates"](http://codemanship.co.uk/parlezuml/blog/?postid=1316){:target="_blank"} by [@jasongorman](https://twitter.com/jasongorman){:target="_blank"}
 
-* ["Steve McConnell on #NoEstimates"](http://ronjeffries.com/articles/015-jul/mcconnell/) by [@RonJeffries](https://twitter.com/ronjeffries)
+* ["Steve McConnell on #NoEstimates"](http://ronjeffries.com/articles/015-jul/mcconnell/){:target="_blank"} by [@RonJeffries](https://twitter.com/ronjeffries){:target="_blank"}
 
 
 ## Agile Perversion
@@ -50,8 +50,8 @@ Many companies moved to Agile, probably because it was the trend or they wanted 
 because their projects were failing. Whatever the reason, probably, for these ones mainly focus
 on process management (Scrum), by now they realise that the projects still failing.
 
-[Sandro Mancuso](https://twitter.com/sandromancuso) name it as the "Agile Hangover" in his book
-["The Software Craftsman"](http://www.amazon.co.uk/books/dp/0134052501).
+[Sandro Mancuso](https://twitter.com/sandromancuso){:target="_blank"} name it as the "Agile Hangover" in his book
+["The Software Craftsman"](http://www.amazon.co.uk/books/dp/0134052501){:target="_blank"}.
 
 Taking a deeper look to XP (eXtremme Progamming) I realised that Scrum is only focus on the red circle.
 
