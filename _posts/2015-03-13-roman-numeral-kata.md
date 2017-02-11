@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Roman Numerals Kata
-excerpt: "J blocks, and more."
 tags: [TDD, kata]
 comments: true
 ---
