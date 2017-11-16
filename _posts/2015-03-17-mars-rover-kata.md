@@ -13,11 +13,11 @@ It is an amazing book that is helping me to understand the concepts of DDD with 
 
 I solved the following [Mars Rover kata](https://github.com/mustaine/katas/tree/master/mars-rover){:target="_blank"} focusing on the design.
 
-##Mars Rover
+## Mars Rover
 
 Develop an api that moves a rover around on a grid.
 
-###Rules:
+### Rules:
 
 1. You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.
 2. The rover receives a character array of commands.
