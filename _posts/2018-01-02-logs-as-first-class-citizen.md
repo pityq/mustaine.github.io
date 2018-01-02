@@ -133,6 +133,7 @@ Logs quality will increase and the time for investigate and resolve issues will 
 ## References
 
 [I Heart Logs: Event Data, Stream Processing, and Data Integration](http://shop.oreilly.com/product/0636920034339.do) - by [@jaykreps](https://twitter.com/jaykreps)
+
 [Narrative](https://github.com/felipefzdz/narrative) - by [@felipefzdz](https://twitter.com/felipefzdz)
 
 
