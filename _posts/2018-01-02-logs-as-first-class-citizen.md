@@ -100,7 +100,6 @@ When there is an unhappy path, the log message is a requirement. Writing the out
 Implementing the feature will drive you to the details. When test the insides, the assert should focus in the details.
 
 {% highlight java %}
-    
 @Test
 public void activateEntitlementDoesNotReturnAnEntitlementIfIsAlreadyActivated_ExceptionUMV_015IsThrown() throws Exception {
   // given
