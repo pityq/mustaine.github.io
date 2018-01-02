@@ -6,26 +6,26 @@ comments: true
 ---
 
 Logging helps to diagnose problems and record what happened, therefore it is a common practice in software development. 
-Unfortunately, developers usually do not put a lot of effort when writing logs. 
+Unfortunately, developers usually do not put a lot of effort in writing logs. 
 
-Most of the times, logs are not treated as production code, there is no test coverage around them, so adding, changing or removing a log does not make a test to fail. 
-Once the developer has to investigate an issue in production is when she realises the logs are incomplete, but unfortunately it is too late.
+Most of the times, logs are not treated as production code, there is no test coverage around them, so adding, changing or removing a log does not make a test fail. 
+Only when a developer has to investigate an issue in production, she realises that the logs are incomplete or incorrect, but unfortunately it is already too late.
 
 Logging should be treated as a **first class citizen** in every system that aims to be easily diagnosed and maintained.
 
-As developers, we tend to be lazy, so logging after the production code has been done is boring, therefore we tend to miss it. 
+As developers, we tend to be lazy and because adding logging after the production code has been done is boring, we tend to miss it. 
 
-Logging/testing first will drive your production code, achieving higher confidence and quality of your logs. 
-It will drive the rules and alerts in the monitoring systems. 
+Test driving your logs will help you increase the quality of your logs, and your confidence in them. 
+Also will drive the rules and alerts in the monitoring systems. 
 
-Logging make sense in context, writing tests first should reduce the noise around and avoiding logging private information as passwords/tokens or object references.
+Because logging only makes sense in a context, writing tests first for it will help you remove noise around them, avoid mistakenly logging sensitive information or objects references.
  
 We should test how robust are our non-functional capabilities, and not only our functional features. 
-Being able to diagnose, and ultimately fix, issues is a non-functional dimension that should be subject to the same standards as performance, reliability or security.
+Being able to diagnose, and ultimately fix issues, is a non-functional dimension that should be subject to the same standards as performance, reliability or security.
 
 ## What is a Log
 
-A Log is a data structure, immutable, ordered, append-only and persistent. It’s a very simple structure, but it is very powerful. 
+A Log is immutable, ordered, append-only and persistent data structure. It’s a very simple structure, but it is very powerful. 
 
 Logs have a specific purpose: they record what happened, when and where. 
 
@@ -38,9 +38,9 @@ Logs are everywhere and used in many ways as:
 
 ## Common mistakes with logs
 
-Some of the most common issues with the logs I have found over time are.
+Some of the most common issues with logs I have found over time are.
 
-#### Logging a object reference instead of the value
+#### Logging a object reference instead of its value
 
 {% highlight java %}
 ObjectToPrint data = new ObjectToPrint("aValue");
@@ -71,16 +71,16 @@ an error SensitiveObject{password='passw0rd'}
 
 #### When a log message changes, rules of the monitoring system are not updated
 
-Fixing a typo, modifying or removing a log message might have implications in your monitoring systems like 
-rules that are not triggered or dashboards displaying wrong information.
+Fixing a typo, modifying or removing a log message might have implications in your monitoring systems. For example, alert rules 
+might not get triggered or dashboards might display wrong information.
 
-# TDD logging messages 
+# Test driving log messages 
 
-Ideally the expected message will be defined in the requirement/story. 
-But when it is not the case, having to assert the message will make you think how should looks like at this point. 
-I think it is very important, because thinking about the log message, is by definition, increasing the quality of it.  
+Ideally the expected message will be defined when a story is refined, but when that is not the case, 
+writing a test for it will help you think about it from this perspective. 
+Even just thinking about it when writing the test, will automatically improve its quality.  
 
-When there is an unhappy path, the log message is a requirement. Writing the outside test should assert on your expected log message
+When there is an unhappy path, the log message is fundamental. Writing the outside test should assert on your expected log message.
 
 {% highlight scala %}
   scenario("Customer can play out if pass activation fails in UMV with pass already activated error") {
@@ -97,7 +97,7 @@ When there is an unhappy path, the log message is a requirement. Writing the out
   }
 {% endhighlight %}
 
-Implementing the feature will drive you to the details. When test the insides, the assert should focus in the details.
+Implementing the feature will help you drive out the details. When test the insides, the assert should focus on the details.
 
 {% highlight java %}
 @Test
@@ -118,16 +118,16 @@ public void activateEntitlementDoesNotReturnAnEntitlementIfIsAlreadyActivated_Ex
 These examples are using [**LogCapture**](https://github.com/mustaine/logcapture), a testing library for asserting logging messages. 
 I expect to have a separate post talking about it, hopefully sooner than this post from my last one 😅
 
-There are a few examples of how to use the library in [ExampleShould.java](https://github.com/mustaine/logcapture/blob/master/src/test/java/com/logcapture/example/ExampleShould.java){:target="_blank"}
+There are more examples on how to use the library in [here](https://github.com/mustaine/logcapture/blob/master/src/test/java/com/logcapture/example/ExampleShould.java){:target="_blank"}.
 
 ## Conclusions
 
-Testing logs first helps to build production systems giving confidence and improving logs quality. 
-Dashboards plenty of metrics are built from our logs. Alerts are triggered from our logs.
+Test driving logs helps building production systems with confidence and the quality of its logs, thus making it easier to diagnose issues. 
+Many of our monitoring dashboards are built from our logs. Alerts are triggered from our logs.
 So treat your logs as a first class citizen and write tests first around them.
 
-Once the logs are covered by tests, some developers will care about them. Standards will be agreed around logging. 
-Logs quality will increase and the time for investigate and resolve issues will be reduced, so we all will have more time to deliver more features.
+Once the logs are covered by tests, developers will be forced to care about them. Standards will be agreed around logging. 
+Logs quality will increase and the time for investigating and resolving issues will be reduced, so we will all have more time to deliver new features.
 
 ## References
 
