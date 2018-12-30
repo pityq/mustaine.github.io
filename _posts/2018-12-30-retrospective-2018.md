@@ -30,7 +30,7 @@ Looking back, I think it has been a very intense year - personally and professio
 #### Personally
 * Spend more quality time with the family.
 * Make time to meet the friends.
-* Plan more weekends with the family and with the wife.
+* Plan more weekends with the family.
 * Visit [@felipefzdz](https://twitter.com/felipefzdz) in Canary Island.
 * Have more time to practice Tennis.
 
