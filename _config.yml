@@ -2,8 +2,8 @@
 
 title:            JSPcore
 locale:           en_US
-url:              http://www.jspcore.com
-#url:              http://localhost:4000
+#url:              http://www.jspcore.com
+url:              http://localhost:4000
 
 # Jekyll configuration
 permalink:   /:categories/:title/
