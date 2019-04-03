@@ -25,7 +25,7 @@ Looking back now, a problem that could have been avoided in the OTT department w
 A lot of code could have been shared between both products, but it was not done because the similarities were not visible to us. 
 After some time, when we did some pair rotations we discovered how much similar both products were, but how different they were implemented.
 
-Having a mono-repo within an organisation or department would have help. At least for the OTT platform, to reduce the cost of development, improve the overall quality of both projects and reduce the build time simplifying the process.
+Having a mono-repo within an organisation or department would have helped. At least for the OTT platform, to reduce the cost of development, improve the overall quality of both projects and reduce the build time by simplifying the process.
 
 A few weeks back, I was told that they were tackling this problem using a mono-repo for the department. :rocket:
 
@@ -38,10 +38,10 @@ Step by step, we were moving each service/repository into *universe*. To build t
 
 When I left, *universe* had around 120 microservices in the mono-repo, all the services for UniversalCredit at the government and it was **successful**.
 
-We work hard improving the pipeline, thanks to the incremental builds and buck caches the build times were reduced considerably because the majority of builds only requires a partial build and run tests only for the modules that have changed. 
+We worked hard improving the pipeline, thanks to the incremental builds and buck caches the build times were reduced considerably because the majority of builds only require a partial build and run tests only for the modules that have changed. 
 Usually, builds could take up to 20 minutes having a release candidate as a result.
 
-When using mono-repo looks a good idea to run all the platform locally, but please do not do that. Initially, it is very tempting but later will require a very powerful laptop. Instead, define well the service boundaries, trust those boundaries and relay on stubs for those services.
+When using mono-repo looks like a good idea to run all the platform locally, but please do not do that. Initially, it is very tempting but later will require a very powerful laptop. Instead, define well the service boundaries, trust those boundaries and relay on stubs for those services.
  
 #### At Zopa
 
@@ -50,13 +50,13 @@ It was funny because in the early days when I started, I was a bit frustrated wh
 
 In the organisation, we had 10+ products with hundreds of repositories, a few common libraries and very a little code sharing between products. 
  
-As a tech-lead, I had the opportunity to build up a team. I tried to push for values that I believe helps software development, so the team was built around Pair Programming and embracing other Extreme Programming practices.
+As a tech-lead, I had the opportunity to build up a team. I tried to push for values that I believe help software development, so the team was built around Pair Programming and embracing other Extreme Programming practices.
 
-Initially, it was easy to push for mono-repo, although soon I started to have some friction about it. Hence, I did not want to enforce the idea, we split the product into 2 repositories. After all, was not the end of the world, but indeed, it was the biggest mistake I ever did. 
+Initially, it was easy to push for mono-repo, although soon I started to have some friction about it. Hence, I did not want to enforce the idea, we split the product into 2 repositories. After all, it was not the end of the world, but indeed, it was the biggest mistake I ever did. 
 
 One component kept as a mono-repo - the team were pairing, sharing knowledge and improving the quality continuously, quickly building up some standards and having some shared components between services to manage infrastructure or testing.
 
-Another component end up split into 4 repositories. Developers were not able to re-use much code from other components and it was a nightmare to update dependencies and so on.
+Another component ended up being split into 4 repositories. Developers were not able to re-use much code from other components and it was a nightmare to update dependencies and so on.
 
 All it happened in less than a year so you can guess how it would look like after a few years. 
 
@@ -64,11 +64,11 @@ Developers working in the mono-repo were not feeling comfortable making changes 
 
 Soon it might end up being 10+ repositories, having to manage it is a lot of waste. Within the mono-repo, it was easy to manage tests reports automatically, have dependency management migrated to Gradle 5 easily, not leak transitive dependencies, update third-party libraries, apply security patches, have a pipeline using remote cache and so on. Having to do it for 10+ repositories is a lot of *waste*, boring, hard to apply and to maintain.
 
-A reason to have multiple repositories in the organisation was that all teams worked with the same simple pipeline. It works but makes hard to parallelise steps, use incremental builds, use remote caches, etc. 
+A reason to have multiple repositories in the organisation was that all the teams worked with the same simple pipeline. It works but makes hard to parallelise steps, use incremental builds, use remote caches, etc. 
 
 Another reason to use multi-repo was that the tooling for delivery did not support well mono-repos. 
 
-Usually, when the problem is the process then I always push for **change the process** and remove things does not add any value. We should not adopt bad practices, just because the process sucks.
+Usually, when the problem is the process then I always push for **change the process** and remove things that do not add any value. We should not adopt bad practices, just because the process sucks.
 
 ### Conclusions
 
